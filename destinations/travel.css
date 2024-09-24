@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.page1{
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+}
+#menu{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #545353;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    z-index: 1;
+   
+}
+#menu li{
+    float: left;
+
+}
+#menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    font-size: 120%;
+    
+}
+#menu li a:hover{
+    background-color: #333;
+      
+}
+.paragraph{
+    color: white;
+    font-family:"Merienda";
+    text-shadow: 3px 3px 5px #bf1111;
+    text-align: left;
+    position: absolute;
+    top:45%;
+    left: 60%;
+    transform: translate(-30%, -40%);
+    font-size: 1.5em;
+
+}
+.page1 img{
+    
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+#images{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);    
+}
+
+.pht{
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    height:auto;
+    width: 100%;
+
+}
+
